@@ -1,0 +1,27 @@
+let money = prompt("¬аш бюджет на мес€ц?", '');
+    time = prompt("¬ведите дату в формате YYYY-MM-DD", '');
+
+let appData = {
+    budget: money,
+    expenses: {},
+    optionalExpences: {},
+    income: [],
+    timeDta: time,
+    savings: false
+}
+/*let a1 = prompt("¬ведите об€зательную статью расходов в этом мес€це", '');
+    a2 = prompt("¬о сколько обойдетс€?", '');
+    a3 = prompt("¬ведите об€зательную статью расходов в этом мес€це", '');
+    a4 = prompt("¬о сколько обойдетс€?", ''); */
+
+    appData.expenses.a1 = a2;
+    appData.expenses.a3 = a4;
+
+    for (let i = 0; i < 2; i++){
+        let a = prompt("¬ведите об€зательную статью расходов в этом мес€це", '');
+            b = prompt("¬о сколько обойдетс€?", '');
+
+            appData.expenses[a]
+    }
+
+    alert(appData.budget / 30);
